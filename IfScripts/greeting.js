@@ -16,6 +16,7 @@ else if (timePerHour <= 1600) {
     timePerHour = 1500
     Greeting = "Good Day ! ";
 } 
+   // Greeting for Good Evening 
 else if (timePerHour > 1700  )
  {
     timePerHour = 1900

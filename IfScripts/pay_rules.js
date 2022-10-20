@@ -3,7 +3,7 @@ var payRate;  // Value for payrate
 var hoursWorked = 45; // Value for hours worked 
 var grossPay; // Value for weekly pay 
 
-var otpay = (hoursWorked) * (1.5 * payRate); // overtime payment
+var otpay = (hoursWorked- 40) * (1.5 * payRate); // overtime payment
 
 
 // Employee worked Under 40 hours 
